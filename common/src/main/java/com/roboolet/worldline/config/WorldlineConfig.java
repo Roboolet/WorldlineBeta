@@ -3,7 +3,7 @@ package com.roboolet.worldline.config;
 import net.neoforged.neoforge.common.ModConfigSpec;
 import org.apache.commons.lang3.tuple.Pair;
 
-public class ClassicFoodConfig {
+public class WorldlineConfig {
 	public static class Common {
 		public final ModConfigSpec.BooleanValue instantFood;
 		public final ModConfigSpec.BooleanValue unstackable;

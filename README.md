@@ -26,12 +26,11 @@ To-do list:
  - [ ] Make beds not skip the night
  - [ ] Remove phantoms
  - [ ] Remove most structures from the game (including strongholds)
- - [ ] Remove or rework netherite
+ - [ ] Remove netherite
  - [ ] Change mob loot tables, especially the newer ones that don't drop anything
    - [ ] Sulfur cubes drop slimeballs
    - [ ] Dolphins drop their fins (for potion brewing)
- - [ ] Make blazes spawn in nether wastes, wither skeletons in soul sand valley
- - [ ] Make nether wart grow naturally in soul sand valley and crimson forest
+ - [ ] Make blazes spawn near the lava sea in the nether, wither skeletons in soul sand valley
  - [ ] Remove advancements now made impossible by this mod, add back in some old ones
 
 

@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class HudMixin {
 
 	@Inject(method = "extractFood(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/world/entity/player/Player;II)V", at = @At("HEAD"), cancellable = true)
-	private void classicfood$extractFood(CallbackInfo ci) {
+	private void worldline$extractFood(CallbackInfo ci) {
 		ci.cancel();
 	}
 }

@@ -1,6 +1,6 @@
 package com.roboolet.worldline;
 
-import com.roboolet.worldline.config.ClassicFoodConfig;
+import com.roboolet.worldline.config.WorldlineConfig;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -10,7 +10,7 @@ public class CommonClass {
 
     public static void onPlayerTick(Player player) {
         if (player.level() instanceof ServerLevel serverLevel) {
-            if (ClassicFoodConfig.COMMON.poisonousHunger.get() && player.hasEffect(MobEffects.HUNGER)) {
+            if (WorldlineConfig.COMMON.poisonousHunger.get() && player.hasEffect(MobEffects.HUNGER)) {
                 MobEffectInstance instance = player.getEffect(MobEffects.HUNGER);
                 if (instance != null) {
                     int duration = instance.isInfiniteDuration() ? player.tickCount : instance.getDuration();

@@ -1,0 +1,22 @@
+{
+  "worldline.configuration.general": "General",
+  "worldline.configuration.general.tooltip": "General Settings",
+  "worldline.configuration.poisonousHunger": "Poisonous Hunger",
+  "worldline.configuration.poisonousHunger.tooltip": "If enabled, poisonous foods will cause hunger when eaten",
+  "worldline.configuration.instantFood": "Instant Food",
+  "worldline.configuration.instantFood.tooltip": "When enabled food will be eaten instantly (Default: false)",
+  "worldline.configuration.foodToHealRatio": "Food to Heal Ratio",
+  "worldline.configuration.foodToHealRatio.tooltip": "The amount of food points that will heal 1 health point (Default: 1.0)",
+  "worldline.configuration.unstackable": "Unstackable",
+  "worldline.configuration.unstackable.tooltip": "When enabled food items won't be able to stack (Default: false)",
+  "text.autoconfig.worldline.option.general": "General",
+  "text.autoconfig.worldline.option.general.poisonousHunger": "Poisonous Hunger",
+  "text.autoconfig.worldline.option.general.poisonousHunger.@Tooltip": "If enabled, poisonous foods will cause hunger when eaten",
+  "text.autoconfig.worldline.option.general.instantFood": "Instant Food",
+  "text.autoconfig.worldline.option.general.instantFood.@Tooltip": "When enabled food will be eaten instantly (Default: false)",
+  "text.autoconfig.worldline.option.general.foodToHealRatio": "Food to Heal Ratio",
+  "text.autoconfig.worldline.option.general.foodToHealRatio.@Tooltip": "The amount of food points that will heal 1 health point (Default: 1.0)",
+  "text.autoconfig.worldline.option.general.unstackable": "Unstackable",
+  "text.autoconfig.worldline.option.general.unstackable.@Tooltip": "When enabled food items won't be able to stack (Default: false)",
+  "text.autoconfig.worldline.title": "Classic Food"
+}

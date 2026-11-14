@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "classicfood",
+  "id": "worldline",
   "version": "${version}",
-  "name": "Classic Food",
-  "description": "Reimplements the old food to health system",
+  "name": "Worldline Beta",
+  "description": "Reimagines modern Minecraft as if history diverged in early Beta",
   "authors": [
-    "Mrbysco", "ShyNieke"
+    "Roboolet"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/classic-food",
-    "sources": "https://github.com/Mrbysco/ClassicFood",
-    "issues": "https://github.com/Mrbysco/ClassicFood/issues"
+    "homepage": "",
+    "sources": "",
+    "issues": ""
   },
   "license": "MIT",
   "environment": "*",
@@ -23,8 +23,8 @@
     ]
   },
   "mixins": [
-    "classicfood.fabric.mixins.json",
-    "classicfood.mixins.json"
+    "worldline.fabric.mixins.json",
+    "worldline.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.19.5",

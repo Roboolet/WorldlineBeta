@@ -1,30 +1,30 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-issueTrackerURL="https://github.com/Mrbysco/ClassicFood/issues"
+issueTrackerURL=""
 license="MIT"
 
 [[mods]]
-modId="classicfood"
+modId="worldline"
 version="${file.jarVersion}"
-displayName="Classic Food"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/classic-food"
-authors="Mrbysco, ShyNieke"
+displayName="Worldline Beta"
+displayURL=""
+authors="Roboolet"
 description='''
-Reimplements the old food to health system
+Reimagines modern Minecraft as if history diverged in early Beta
 '''
-[[dependencies.classicfood]]
+[[dependencies.worldline]]
 modId="minecraft"
 type="REQUIRED"
 versionRange="[26.3,)"
 ordering="NONE"
 side="BOTH"
-[[dependencies.classicfood]]
+[[dependencies.worldline]]
 modId="neoforge"
 type="REQUIRED"
 versionRange="[26.3.0.76,)"
 ordering="NONE"
 side="BOTH"
 [[mixins]]
-config="classicfood.mixins.json"
+config="worldline.mixins.json"
 [[mixins]]
-config="classicfood.neoforge.mixins.json"
+config="worldline.neoforge.mixins.json"

@@ -15,7 +15,7 @@ public class PlayerMixin {
 	protected FoodData foodData;
 
 	@Inject(at = @At("RETURN"), method = "<init>")
-	private void classicfood_init(CallbackInfo info) {
+	private void worldline_init(CallbackInfo info) {
 		foodData = new HungerlessFoodStats();
 	}
 }

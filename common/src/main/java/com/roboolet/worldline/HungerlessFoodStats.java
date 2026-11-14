@@ -1,6 +1,6 @@
 package com.roboolet.worldline;
 
-import com.roboolet.worldline.config.ClassicFoodConfig;
+import com.roboolet.worldline.config.WorldlineConfig;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.player.Player;
@@ -71,7 +71,7 @@ public class HungerlessFoodStats extends FoodData {
 
 	@Override
 	public void eat(@NotNull FoodProperties food) {
-		heal(Mth.ceil(food.nutrition() * ClassicFoodConfig.COMMON.foodToHealRatio.get()));
+		heal(Mth.ceil(food.nutrition() * WorldlineConfig.COMMON.foodToHealRatio.get()));
 	}
 
 	public void heal(float amount) {

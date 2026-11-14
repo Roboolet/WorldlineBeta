@@ -1,6 +1,6 @@
 package com.roboolet.worldline.mixin;
 
-import com.roboolet.worldline.config.ClassicFoodConfig;
+import com.roboolet.worldline.config.WorldlineConfig;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;
@@ -12,9 +12,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public abstract class ItemStackMixin2 {
 
 	@Inject(at = @At("HEAD"), method = "getMaxStackSize()I", cancellable = true)
-	private void classicfood_getUseDuration(CallbackInfoReturnable<Integer> cir) {
+	private void worldline_getUseDuration(CallbackInfoReturnable<Integer> cir) {
 		ItemStack stack = (ItemStack) (Object) this;
-		if (ClassicFoodConfig.COMMON.instantFood.get() && stack.has(DataComponents.FOOD))
+		if (WorldlineConfig.COMMON.instantFood.get() && stack.has(DataComponents.FOOD))
 			cir.setReturnValue(1);
 	}
 }

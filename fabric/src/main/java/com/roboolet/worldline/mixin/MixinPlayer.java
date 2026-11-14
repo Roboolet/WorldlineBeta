@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class MixinPlayer {
 
 	@Inject(method = "tick", at = @At("HEAD"))
-	private void classicfood$preTick(CallbackInfo ci) {
+	private void worldline$preTick(CallbackInfo ci) {
 		CommonClass.onPlayerTick((Player) (Object) this);
 	}
 }
