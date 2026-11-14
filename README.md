@@ -25,7 +25,7 @@ To-do list:
    - [ ] Foods that used to cause hunger now cause weakness + mining fatigue + slowness
  - [ ] Make beds not skip the night
  - [ ] Remove phantoms
- - [ ] Remove most structures from the game
+ - [ ] Remove most structures from the game (including strongholds)
  - [ ] Remove or rework netherite
  - [ ] Change mob loot tables, especially the newer ones that don't drop anything
    - [ ] Sulfur cubes drop slimeballs

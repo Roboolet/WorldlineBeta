@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.mrbysco.classicfood.ClassicFoodFabric"
+      "com.roboolet.worldline.ClassicFoodFabric"
     ],
     "modmenu": [
-      "com.mrbysco.classicfood.config.ClassicModMenuIntegration"
+      "com.roboolet.worldline.config.ClassicModMenuIntegration"
     ]
   },
   "mixins": [
