@@ -1,10 +1,11 @@
 package com.roboolet.worldline;
 
-import com.roboolet.worldline.config.WorldlineConfig;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+
+import java.util.Set;
 
 public class CommonClass {
 
@@ -31,4 +32,20 @@ public class CommonClass {
             return true;
         }
     }
+
+	public static final Set<Item> UNSTACKABLE_FOODS = Set.of(
+			Items.RABBIT_STEW,
+			Items.SUSPICIOUS_STEW,
+			Items.MUSHROOM_STEW,
+			Items.BEETROOT_SOUP
+	);
+
+	public static final Set<Item> MAX_STACK_FOODS = Set.of(
+			Items.DRIED_KELP,
+			Items.SPIDER_EYE,
+			Items.GLOW_BERRIES,
+			Items.SWEET_BERRIES,
+			Items.BEETROOT,
+			Items.COOKIE
+	);
 }

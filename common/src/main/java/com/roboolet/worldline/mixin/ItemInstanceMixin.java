@@ -9,14 +9,31 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
+import static com.roboolet.worldline.CommonClass.MAX_STACK_FOODS;
+import static com.roboolet.worldline.CommonClass.UNSTACKABLE_FOODS;
+
 @Mixin(ItemInstance.class)
 public interface ItemInstanceMixin {
 	@Inject(method = "getMaxStackSize", at = @At("HEAD"), cancellable = true)
 	private void worldline$getMaxStackSize(CallbackInfoReturnable<Integer> cir) {
 		ItemInstance self = (ItemInstance) this;
 		if (self instanceof ItemStack itemStack) {
-			if (WorldlineConfig.COMMON.unstackable.get() && itemStack.has(DataComponents.FOOD))
-				cir.setReturnValue(1);
+			if (WorldlineConfig.COMMON.unstackable.get() && itemStack.has(DataComponents.FOOD)) {
+				// for almost all food, stack size is set to 16
+				int stackSize = 16;
+
+				// set bowl foods and such back to 1
+				if (UNSTACKABLE_FOODS.contains(itemStack.getItem())) {
+					stackSize = 1;
+				}
+
+				// a few are set to 64
+				if (MAX_STACK_FOODS.contains(itemStack.getItem())) {
+					stackSize = 64;
+				}
+				cir.setReturnValue(stackSize);
+			}
 		}
 	}
 }
+

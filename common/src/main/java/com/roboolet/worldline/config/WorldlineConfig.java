@@ -9,17 +9,17 @@ public class WorldlineConfig {
 		public final ModConfigSpec.BooleanValue unstackable;
 
 		Common(ModConfigSpec.Builder builder) {
-			//General settings
-			builder.comment("General settings")
-					.push("general");
+			// Food settings
+			builder.comment("Food settings")
+					.push("Food");
 
 			instantFood = builder
-					.comment("When enabled food will be eaten instantly (Default: false)")
-					.define("instantFood", false);
+					.comment("When enabled food will be eaten much quicker (Default: true)")
+					.define("instantFood", true);
 
 			unstackable = builder
-					.comment("When enabled food items won't be able to stack (Default: false)")
-					.define("unstackable", false);
+					.comment("When enabled food items have their stack sizes adjusted (Default: true)")
+					.define("unstackable", true);
 
 			builder.pop();
 		}

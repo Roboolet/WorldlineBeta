@@ -15,6 +15,6 @@ public abstract class ItemStackMixin {
 	private void worldline_getUseDuration(CallbackInfoReturnable<Integer> cir) {
 		ItemStack stack = (ItemStack) (Object) this;
 		if (WorldlineConfig.COMMON.instantFood.get() && stack.has(DataComponents.FOOD))
-			cir.setReturnValue(1);
+			cir.setReturnValue(6);
 	}
 }
