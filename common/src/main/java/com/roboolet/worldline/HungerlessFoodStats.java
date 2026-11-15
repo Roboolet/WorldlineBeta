@@ -71,7 +71,11 @@ public class HungerlessFoodStats extends FoodData {
 
 	@Override
 	public void eat(@NotNull FoodProperties food) {
-		heal(Mth.ceil(food.nutrition() * WorldlineConfig.COMMON.foodToHealRatio.get()));
+		// change this to change heal values
+		var nutritionToHealRatio = 0.7;
+		var saturationToHealRatio = 0.3;
+		heal(Mth.ceil(food.nutrition() * nutritionToHealRatio)
+				+ Mth.floor(food.saturation()* saturationToHealRatio));
 	}
 
 	public void heal(float amount) {

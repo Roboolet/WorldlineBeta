@@ -5,6 +5,8 @@
 
 This Minecraft mod overhauls modern versions to play and feel more like early alpha/beta versions. A lot of what this mod does is cut down the fat, and turn the game back into more of a pure survival sandbox experience. Less driven by extrinsic motivation (kill dragon, get elytra, etc) and more driven by intrinsic motivation (i want to build x/y/z)
 
+I have no experience modding Minecraft so bear with me while I learn the ropes.
+
 To-do list:
  - [x] Removed the hunger mechanic entirely, making food heal directly again.
  - [x] Make food unstackable again

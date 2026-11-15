@@ -10,7 +10,7 @@ public class CommonClass {
 
     public static void onPlayerTick(Player player) {
         if (player.level() instanceof ServerLevel serverLevel) {
-            if (WorldlineConfig.COMMON.poisonousHunger.get() && player.hasEffect(MobEffects.HUNGER)) {
+            /*if (WorldlineConfig.COMMON.poisonousHunger.get() && player.hasEffect(MobEffects.HUNGER)) {
                 MobEffectInstance instance = player.getEffect(MobEffects.HUNGER);
                 if (instance != null) {
                     int duration = instance.isInfiniteDuration() ? player.tickCount : instance.getDuration();
@@ -19,7 +19,7 @@ public class CommonClass {
                         player.hurtServer(serverLevel, player.damageSources().magic(), 1.0F);
                     }
                 }
-            }
+            }*/
         }
     }
 
