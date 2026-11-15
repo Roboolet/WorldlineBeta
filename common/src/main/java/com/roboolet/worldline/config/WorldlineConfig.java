@@ -11,7 +11,7 @@ public class WorldlineConfig {
 		Common(ModConfigSpec.Builder builder) {
 			// Food settings
 			builder.comment("Food settings")
-					.push("Food");
+					.push("food");
 
 			instantFood = builder
 					.comment("When enabled food will be eaten much quicker (Default: true)")
