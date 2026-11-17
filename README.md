@@ -20,11 +20,42 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
   - [x] Lower food stack size to 16 (to rebalance)
   - [ ] Replace hunger effect with weakness + mining fatigue
 
-**Enchanting & brewing:**
+**Enchanting, brewing and beacons:**
  - [ ] Enchantments removed from the game
- - [ ] Add removed enchantments back in as potion effects (silk touch, frost walker, etc)
- - [ ] Add potions for unbrewable vanilla effects (haste, luck, etc)
  - [ ] Make luck effect also function like Looting and Fortune
+ - [ ] Nether wart/awkward potion is no longer needed to brew potions
+ - [ ] Nether wart replaces glowstone for upgrading potions
+ - Beacons are reworked
+   - [ ] Potions can be placed inside. It's effect is given to any player in range
+   - Beacon tiers
+     - [ ] Tier 1 has one potion slot
+     - [ ] Tier 2 gains ability to filter target (player, passive mobs, both)
+     - [ ] Tier 3 gains a second potion slot
+     - [ ] Tier 4 gains more filters (hostile mobs, all mobs, all mobs + players)
+   - [ ] Range and duration scale like normal
+   - [ ] No longer consumes any materials
+   - [ ] Instant health and damage are incompatible
+ - Add potions for unbrewable vanilla effects
+   - [ ] Rabbit's foot for luck. Jump boost combined with potion of oozing (crafted with slime block)
+   - [ ] Bad Luck as corrupted form of luck (fermented spider eye)
+   - [ ] Glow ink sac for glowing
+   - [ ] Chorus fruit for slow falling (because phantoms are removed)
+   - [ ] Chorus flower for levitation
+   - [ ] Sculk for blindness
+   - [ ] Cocoa beans for haste
+   - [ ] Rotten flesh for nausea
+   - [ ] Wither rose for withering
+ - Add some removed enchantments back in as potion effects
+   - [ ] Prismarine shard for thorns
+   - [ ] Blue ice for frost walker
+   - [ ] Cobweb for silk touch (merged with Weaving potion)
+   - [ ] Resin clump for unbreaking
+   - [ ] Tropical fish for depth strider
+   - [ ] Feather for feather falling
+   - [ ] Magma block for flame/fire aspect
+   - [ ] Warped/Crimson fungus for soul speed & swift sneak
+   - [ ] Open eyeblossom for lure
+   - [ ] Heart of the sea for luck of the sea
 
 **Worldgen:**
  - [ ] Removed most structures (villages, fortresses, bastions etc)
@@ -39,9 +70,8 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
  - The Nether
    - [ ] Ancient debris is slightly more common
  - The End
-   - [ ] Outer end islands no longer generate
-   - [ ] Chorus fruits sparsely generate on central end island
-   - [ ] Central end island is much larger
+   - [ ] Only small end islands generate outside the central island area
+   - [ ] Central end island is much larger, and is surrounded by end barrens (with chorus fruit)
 
 **Blocks:**
  - [ ] Leafy decoration blocks are only gatherable with shears/silk touch
@@ -51,15 +81,10 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
  - [ ] Torchflowers and pitcher pods now glow
  - Brushing/archaeology is expanded
    - [ ] Added End Sand and Suspicious End Sand
-   - [ ] Archaeology drop tables are changed based on dimension, with otherwise structure exclusive armor trims and discs also appearing in their respective dimension.
+   - [ ] Structure exclusive armor trims, discs, pottery shards and the heart of the sea can be obtained in respective dimensions.
    - [ ] No more junk items, just get nothing instead
    - [ ] Sniffer eggs can be dug up anywhere in the overworld
    - [ ] Nether wart obtainable in the nether
- - Beacons are reworked
-   - [ ] Potions can be placed inside. It's effect is permanently given to any player in range
-   - [ ] Tier 4 beacons have 2 potion slots
-   - [ ] Range and duration scale like normal
-   - [ ] No longer consumes any materials
 
 **Mobs:**
  - [ ] Phantoms no longer spawn (gamerule)
@@ -79,17 +104,15 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
  - [ ] Pandas and polar bears scare off zombies and skeletons
  - [ ] Polar bears drop wool
  - [ ] Guardians spawn in unlit water below Y=30 (same as glow squids)
- - [ ] Dolphins can be milked with a bottle (see item section)
  - [ ] Nautiluses drop their shells more often
  - [ ] Wardens have less health
  - [ ] Wardens drop several echo shards, and one of the two armor trims
+ - [ ] Allays spawn at night in dark oak forests, more during full moon and not at all during new moon
 
 **Items & crafting:**
- - [ ] Added Dolphin Milk Bottle
-   - [ ] Can be consumed, making you nauseous
-   - [ ] Used to brew a Dolphin's Grace potion
  - [ ] Beacons are crafted with netherite instead of a nether star
  - [ ] Diamond equipment is no longer upgradable to netherite
+ - [ ] Turtle helmet has innate aqua affinity
  - [ ] Rails craftable with copper
  - [ ] Scaffolding craftable with sticks
  - [ ] Bamboo to stick conversion is more generous
