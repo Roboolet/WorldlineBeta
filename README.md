@@ -3,9 +3,11 @@
 
 # Worldline Beta #
 
-This Minecraft mod overhauls modern versions to play and feel more like early alpha/beta versions. A lot of what this mod does is cut down the fat, and turn the game back into more of a pure survival sandbox experience. Less driven by extrinsic motivation (kill dragon, get elytra, get wealth) and more driven by intrinsic motivation (i want to build x/y/z, i want to try this).
+This Minecraft mod overhauls modern versions to play and feel more like early alpha/beta versions. A lot of what this mod does is cut down the fat, and turn the game back into more of a pure survival sandbox experience. Less driven by extrinsic motivation (kill dragon, get elytra, get wealth) and more driven by intrinsic motivation (i want to build x/y/z, i want to try this). 
 
-I have no experience modding Minecraft so bear with me while I learn the ropes.
+Part of that is also cutting down on gear progression. In vanilla you can spend dozens of hours getting a fully enchanted netherite armor set, and then lose it all by falling in the end void. The most you'll ever lose here is a full set of unenchanted diamond armor, something you can recoup in about an hour.
+
+(I have no experience modding Minecraft so bear with me while I learn the ropes.)
 
 # Changes #
 An exhaustive list of changes this mod has. Most of these can be configured, although I'm designing around the default configurations.
@@ -17,7 +19,7 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
  - [ ] 
 **Food & hunger:**
   - [x] Removed the hunger mechanic entirely, making food heal directly again.
-  - [x] Lower food stack size to 16 (to rebalance)
+  - [x] Lower food stack size to 16 (with a few exceptions)
   - [ ] Replace hunger effect with weakness + mining fatigue
 
 **Enchanting, brewing and beacons:**
@@ -95,7 +97,7 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
  - [ ] Blazes spawn near the lava sea in the nether
  - [ ] Wither skeletons spawn in the soul sand valley
  - [ ] Wither skeleton skulls are slightly more common
- - [ ] Withers drop 1-2 netherite ingots instead of a nether star
+ - [x] Withers drop 5-7 netherite scrap instead of a nether star
  - [ ] Blazes always drop one rod
  - [ ] Ghasts always drop one tear
  - [ ] Sniffers dig up all seed types and vegetables, nether wart in the nether, and chorus fruit in the end

@@ -6,7 +6,8 @@
   "mixins": [
     "ItemInstanceMixin",
     "ItemStackMixin",
-    "PlayerMixin"
+    "PlayerMixin",
+    "WitherDropMixin"
   ],
   "injectors": {
     "defaultRequire": 1
