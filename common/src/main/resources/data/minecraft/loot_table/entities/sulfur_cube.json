@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+          "rolls": {
+            "type": "minecraft:binomial",
+            "n": 2,
+            "p": 0.4
+          },
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:slime_ball"
+            }
+          ],
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/cube_mob": {
+                "size": 1
+              }
+            }
+          }
+        }
+    ]
+}

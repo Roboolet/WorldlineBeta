@@ -93,13 +93,13 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
  - [ ] Wandering traders no longer spawn (gamerule)
  - [ ] Pillagers patrols no longer spawn (gamerule)
  - [ ] Zombie villagers no longer spawn
- - [ ] Small sulfur cubes drop slimeballs
+ - [x] Small sulfur cubes drop slimeballs
  - [ ] Blazes spawn near the lava sea in the nether
  - [ ] Wither skeletons spawn in the soul sand valley
  - [ ] Wither skeleton skulls are slightly more common
  - [x] Withers drop 5-7 netherite scrap instead of a nether star
- - [ ] Blazes always drop one rod
- - [ ] Ghasts always drop one tear
+ - [x] Blazes always drop one rod
+ - [x] Ghasts always drop one tear
  - [ ] Sniffers dig up all seed types and vegetables, nether wart in the nether, and chorus fruit in the end
  - [ ] Removed the extra breeding requirements of pandas
  - [ ] Brown pandas no longer spawn naturally

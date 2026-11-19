@@ -15,7 +15,8 @@ public class WitherDropMixin {
 			at = @At("HEAD"),
 			cancellable = true
 	)
-	private void dropCustomDeathLoot(ServerLevel level, DamageSource source, boolean killedByPlayer, CallbackInfo ci)
+	private void worldline$dropCustomDeathLoot
+			(ServerLevel level, DamageSource source, boolean killedByPlayer, CallbackInfo ci)
 	{
 		ci.cancel();
 	}
