@@ -51,13 +51,14 @@ public class CommonClass {
 			Items.BEEF,
 			Items.ROTTEN_FLESH,
 			Items.CHICKEN,
-			Items.MUTTON
+			Items.MUTTON,
+			Items.BEETROOT,
+			Items.HONEY_BOTTLE
 	);
 
 	public static final Set<Item> MAX_STACK_FOODS = Set.of(
 			Items.DRIED_KELP,
 			Items.POISONOUS_POTATO,
-			Items.BEETROOT,
 			Items.SPIDER_EYE
 	);
 }

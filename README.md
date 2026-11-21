@@ -102,7 +102,7 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
  - [ ] Pandas and polar bears scare off undead
  - [ ] Polar bears drop wool
  - [ ] Guardians spawn in unlit water below Y=30 (same as glow squids)
- - [ ] Nautiluses drop their shells more often
+ - [x] Nautiluses drop their shells more often
  - [ ] Wardens have much less health (200hp, same as ender dragon)
  - [x] Wardens drop several echo shards, and one of the two deep dark armor trims
 
