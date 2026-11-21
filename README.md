@@ -99,7 +99,7 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
  - [ ] Blazes spawn near the lava sea in the nether
  - [ ] Wither skeletons spawn in the soul sand valley
  - [ ] Wither skeleton skulls are slightly more common
- - [x] Withers drop 5-7 netherite scrap instead of a nether star
+ - [x] Withers drop 5-7 netherite scrap instead of a nether star, and one of two nether armor trims
  - [x] Blazes always drop one rod
  - [x] Ghasts always drop one tear
  - [ ] Sniffers dig up all seed types and vegetables, nether wart in the nether, and chorus fruit in the end
@@ -110,7 +110,7 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
  - [ ] Guardians spawn in unlit water below Y=30 (same as glow squids)
  - [ ] Nautiluses drop their shells more often
  - [ ] Wardens have much less health (200hp, same as ender dragon)
- - [x] Wardens drop several echo shards, and one of the two armor trims
+ - [x] Wardens drop several echo shards, and one of the two deep dark armor trims
 
 **Items & crafting:**
  - [ ] Beacons are crafted with netherite instead of a nether star
