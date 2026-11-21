@@ -33,19 +33,16 @@ public class CommonClass {
         }
     }
 
-	public static final Set<Item> UNSTACKABLE_FOODS = Set.of(
-			Items.RABBIT_STEW,
-			Items.SUSPICIOUS_STEW,
-			Items.MUSHROOM_STEW,
-			Items.BEETROOT_SOUP
+	public static final Set<Item> MID_STACK_FOODS = Set.of(
+			Items.GLOW_BERRIES,
+			Items.SWEET_BERRIES,
+			Items.BEETROOT,
+			Items.COOKIE,
+			Items.MELON_SLICE
 	);
 
 	public static final Set<Item> MAX_STACK_FOODS = Set.of(
 			Items.DRIED_KELP,
-			Items.SPIDER_EYE,
-			Items.GLOW_BERRIES,
-			Items.SWEET_BERRIES,
-			Items.BEETROOT,
-			Items.COOKIE
+			Items.SPIDER_EYE
 	);
 }

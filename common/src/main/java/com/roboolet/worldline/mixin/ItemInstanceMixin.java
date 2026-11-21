@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import static com.roboolet.worldline.CommonClass.MAX_STACK_FOODS;
-import static com.roboolet.worldline.CommonClass.UNSTACKABLE_FOODS;
+import static com.roboolet.worldline.CommonClass.MID_STACK_FOODS;
 
 @Mixin(ItemInstance.class)
 public interface ItemInstanceMixin {
@@ -19,12 +19,12 @@ public interface ItemInstanceMixin {
 		ItemInstance self = (ItemInstance) this;
 		if (self instanceof ItemStack itemStack) {
 			if (WorldlineConfig.COMMON.unstackable.get() && itemStack.has(DataComponents.FOOD)) {
-				// for almost all food, stack size is set to 16
-				int stackSize = 16;
+				// for almost all food, stack size is set to 1
+				int stackSize = 1;
 
-				// set bowl foods and such back to 1
-				if (UNSTACKABLE_FOODS.contains(itemStack.getItem())) {
-					stackSize = 1;
+				// set some foods to 16
+				if (MID_STACK_FOODS.contains(itemStack.getItem())) {
+					stackSize = 16;
 				}
 
 				// a few are set to 64
