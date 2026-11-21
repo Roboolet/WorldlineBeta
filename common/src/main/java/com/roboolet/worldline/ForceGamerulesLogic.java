@@ -4,6 +4,7 @@ import net.minecraft.world.level.gamerules.GameRule;
 import net.minecraft.world.level.gamerules.GameRules;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.level.saveddata.SavedData;
 
 public class ForceGamerulesLogic {
 
@@ -16,5 +17,7 @@ public class ForceGamerulesLogic {
 		server.getGameRules().set(GameRules.SPAWN_WANDERING_TRADERS, false, server);
 		server.getGameRules().set(GameRules.RAIDS, false, server);
 		server.getGameRules().set(GameRules.NATURAL_HEALTH_REGENERATION, false, server);
+
+		//SavedData.
 	}
 }

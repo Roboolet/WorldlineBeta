@@ -13,7 +13,7 @@ Part of that is also cutting down on gear progression. In vanilla you can spend 
 An exhaustive list of changes this mod has. Most of these can be configured, although I'm designing around the default configurations.
 
 **General:**
- - [ ] Beds can no longer skip the night (gamerule)
+ - [x] Beds can no longer skip the night (gamerule)
  - [ ] Remove advancements made impossible by this mod
  - [ ] Add back some old fun achievements (i.e. on a rail)
  - [ ] 
@@ -91,9 +91,9 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
    - [ ] Nether wart obtainable in the nether
 
 **Mobs:**
- - [ ] Phantoms no longer spawn (gamerule)
- - [ ] Wandering traders no longer spawn (gamerule)
- - [ ] Pillagers patrols no longer spawn (gamerule)
+ - [x] Phantoms no longer spawn (gamerule)
+ - [x] Wandering traders no longer spawn (gamerule)
+ - [x] Pillagers patrols no longer spawn (gamerule)
  - [ ] Zombie villagers no longer spawn
  - [x] Small sulfur cubes drop slimeballs
  - [ ] Blazes spawn near the lava sea in the nether
@@ -109,8 +109,8 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
  - [ ] Polar bears drop wool
  - [ ] Guardians spawn in unlit water below Y=30 (same as glow squids)
  - [ ] Nautiluses drop their shells more often
- - [ ] Wardens have less health
- - [ ] Wardens drop several echo shards, and one of the two armor trims
+ - [ ] Wardens have much less health (200hp, same as ender dragon)
+ - [x] Wardens drop several echo shards, and one of the two armor trims
 
 **Items & crafting:**
  - [ ] Beacons are crafted with netherite instead of a nether star
