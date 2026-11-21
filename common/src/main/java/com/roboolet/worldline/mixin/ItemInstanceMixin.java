@@ -22,9 +22,9 @@ public interface ItemInstanceMixin {
 				// for almost all food, stack size is set to 1
 				int stackSize = 1;
 
-				// set some foods to 16
+				// set some foods to 9
 				if (MID_STACK_FOODS.contains(itemStack.getItem())) {
-					stackSize = 16;
+					stackSize = 9;
 				}
 
 				// a few are set to 64

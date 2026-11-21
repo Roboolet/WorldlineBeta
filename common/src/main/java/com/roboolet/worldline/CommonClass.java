@@ -36,13 +36,28 @@ public class CommonClass {
 	public static final Set<Item> MID_STACK_FOODS = Set.of(
 			Items.GLOW_BERRIES,
 			Items.SWEET_BERRIES,
-			Items.BEETROOT,
 			Items.COOKIE,
-			Items.MELON_SLICE
+			Items.MELON_SLICE,
+			Items.POTATO,
+			Items.CARROT,
+			Items.APPLE,
+			Items.CHORUS_FRUIT,
+			Items.PUFFERFISH,
+			Items.TROPICAL_FISH,
+			Items.COD,
+			Items.SALMON,
+			Items.RABBIT,
+			Items.PORKCHOP,
+			Items.BEEF,
+			Items.ROTTEN_FLESH,
+			Items.CHICKEN,
+			Items.MUTTON
 	);
 
 	public static final Set<Item> MAX_STACK_FOODS = Set.of(
 			Items.DRIED_KELP,
+			Items.POISONOUS_POTATO,
+			Items.BEETROOT,
 			Items.SPIDER_EYE
 	);
 }
