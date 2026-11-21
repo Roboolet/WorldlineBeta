@@ -38,7 +38,7 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
    - [ ] No longer consumes any materials
    - [ ] Instant health and damage are incompatible
  - Add potions for unbrewable vanilla effects
-   - [ ] Rabbit's foot for luck. Jump boost combined with potion of oozing (crafted with slime block)
+   - [ ] Emerald for luck
    - [ ] Bad Luck as corrupted form of luck (fermented spider eye)
    - [ ] Glow ink sac for glowing
    - [ ] Chorus fruit for slow falling (because phantoms are removed)
@@ -61,7 +61,6 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
 
 **Worldgen:**
  - [ ] Removed most structures (villages, fortresses, bastions etc)
- - [ ] Blobs of suspicious sand/gravel/end sand generate in the overworld, nether and end respectively
  - Overworld
    - [ ] Make terrain more fantastical, like old beta generation
    - [ ] Reduced biome size
@@ -77,18 +76,13 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
    - [ ] Only small end islands generate outside the central island area
    - [ ] Central end island is much larger, and is surrounded by end barrens (with chorus fruit)
 
-**Blocks:**
- - [ ] Leafy decoration blocks are only gatherable with shears/silk touch
- - [ ] Grass only drops seeds when destroyed with a hoe
- - [ ] Leaves don't drop sticks
- - [ ] Amethyst blocks shatter into shards without silk touch
- - [ ] Torchflowers and pitcher pods now glow
- - Brushing/archaeology is expanded
-   - [ ] Added End Sand and Suspicious End Sand
-   - [ ] Structure exclusive armor trims, discs, pottery shards and the heart of the sea can be obtained in respective dimensions.
-   - [ ] No more junk items, just get nothing instead
-   - [ ] Sniffer eggs can be dug up anywhere in the overworld
-   - [ ] Nether wart obtainable in the nether
+ **Archaeology:**
+- [ ] Added End Sand and Suspicious End Sand
+- [ ] Loot tables depend on biome, containing collectibles inaccessible because of most structures being removed. (discs, armor trims, etc)
+- [ ] No more junk items, just get nothing instead
+- [ ] Sniffer eggs can be dug up anywhere in the overworld
+- [ ] Nether wart obtainable in the nether
+- [ ] Blobs of suspicious sand/gravel/end sand generate in the overworld, nether and end respectively
 
 **Mobs:**
  - [x] Phantoms no longer spawn (gamerule)
@@ -111,6 +105,13 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
  - [ ] Nautiluses drop their shells more often
  - [ ] Wardens have much less health (200hp, same as ender dragon)
  - [x] Wardens drop several echo shards, and one of the two deep dark armor trims
+
+**Blocks:**
+ - [ ] Leafy decoration blocks are only gatherable with shears/silk touch
+ - [ ] Grass only drops seeds when destroyed with a hoe
+ - [ ] Leaves don't drop sticks
+ - [ ] Amethyst blocks shatter into shards without silk touch
+ - [ ] Torchflowers and pitcher pods now glow
 
 **Items & crafting:**
  - [ ] Beacons are crafted with netherite instead of a nether star
