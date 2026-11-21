@@ -7,6 +7,11 @@
             "n": 2,
             "p": 0.4
           },
+          "bonus_rolls": {
+            "type": "minecraft:uniform",
+            "min": 0.1,
+            "max": 0.8
+          },
           "entries": [
             {
               "type": "minecraft:item",
