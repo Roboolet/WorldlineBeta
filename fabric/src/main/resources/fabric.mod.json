@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.roboolet.worldline.ClassicFoodFabric"
+      "com.roboolet.worldline.WorldlineFabric"
     ],
     "modmenu": [
       "com.roboolet.worldline.config.ClassicModMenuIntegration"
