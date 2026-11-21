@@ -13,7 +13,7 @@ Part of that is also cutting down on gear progression. In vanilla you can spend 
 An exhaustive list of changes this mod has. Most of these can be configured, although I'm designing around the default configurations.
 
 **General:**
- - [ ] Beds can no longer skip the night
+ - [ ] Beds can no longer skip the night (gamerule)
  - [ ] Remove advancements made impossible by this mod
  - [ ] Add back some old fun achievements (i.e. on a rail)
  - [ ] 
@@ -66,7 +66,9 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
    - [ ] Make terrain more fantastical, like old beta generation
    - [ ] Reduced biome size
    - [ ] Make unique biomes more frequent
-   - [ ] Strongholds still generate. Their libraries now generate as potion rooms
+   - [ ] Strongholds still generate, but with libraries replaced with potion rooms
+   - [ ] Nautilus armor can be found in strongholds and monster rooms
+   - [ ] Monster rooms are slightly more common
    - [ ] Diorite/andesite/granite generate as stone instead
    - [ ] Wet sponge can generate in warm oceans, in coral patches
  - The Nether
@@ -103,13 +105,12 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
  - [ ] Sniffers dig up all seed types and vegetables, nether wart in the nether, and chorus fruit in the end
  - [ ] Removed the extra breeding requirements of pandas
  - [ ] Brown pandas no longer spawn naturally
- - [ ] Pandas and polar bears scare off zombies and skeletons
+ - [ ] Pandas and polar bears scare off undead
  - [ ] Polar bears drop wool
  - [ ] Guardians spawn in unlit water below Y=30 (same as glow squids)
  - [ ] Nautiluses drop their shells more often
  - [ ] Wardens have less health
  - [ ] Wardens drop several echo shards, and one of the two armor trims
- - [ ] Allays spawn at night in dark oak forests, more during full moon and not at all during new moon
 
 **Items & crafting:**
  - [ ] Beacons are crafted with netherite instead of a nether star
@@ -119,7 +120,7 @@ An exhaustive list of changes this mod has. Most of these can be configured, alt
  - [ ] Scaffolding craftable with sticks
  - [ ] Bamboo to stick conversion is more generous
  - [ ] Tridents can be repaired with prismarine shards
- - [ ] Music disc '5' craftable with nine echo shards
+ - [ ] Music disc '5' craftable with 8 echo shards and disc '11'
  - [ ] Bells are craftable with a block of gold, 3 sticks and 4 smooth stone
 
 
